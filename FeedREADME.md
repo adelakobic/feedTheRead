@@ -41,7 +41,10 @@ Actual preview of FeedTheRead.
 * geting 
 
 ## Changes made to the code 𝌡
-* the 
+* created a ReadMe template into the gernerateMarkdown folder
+* created code to go into the JS file asking the questions to generate the ReadMe file
+* created the questions for the prompts 
+* 
 
 ## Link to the Screencastify video 💻
 Screencastify video via Google Docs: 

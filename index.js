@@ -79,7 +79,7 @@ function init() {
     ])
     .then((response) => {
         console.log(response);
-        const string = gerneratePage(response);
+        const string = generateMarkdown(response);
         fs.writeFile("README.md", string, (err) =>
             err ? console.error(err) : console.log("Your README has been created!")
         );
