@@ -51,6 +51,13 @@ function init() {
             choices: ['to solve a problem' , 'to improve an existing app/ website', 'to create/try something new'],
         },
         {
+            type: 'checkbox',
+            name: 'problem',
+            message: 'What problem does your project solve?',
+            choices: ['a real world problem', 'a User Experience issue', 'a User Interface issue', 'something else'],
+
+        },
+        {
             type: 'confirm', // y/N ?
             name: 'installT',
             message: 'Installation: open in Terminal? (y/N)',
@@ -69,6 +76,11 @@ function init() {
             type: 'input',
             name: 'usage',
             message: 'Please enter how the user can use this repository',
+        },
+        {
+            type: 'input',
+            name: 'links',
+            message: 'Please paste in any links relevat to your project',
         },
         {
             type: 'checkbox',
