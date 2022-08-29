@@ -4,7 +4,7 @@ const { default: CheckboxPrompt } = require("inquirer/lib/prompts/checkbox");
 
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  //'Apache 2.0', 'Eclipse Public', 'MIT'
+
   //Apache: https://img.shields.io/badge/License-Apache%202.0-red 
   //Eclipse: https://img.shields.io/badge/License-Eclipse%20Public-yellow 
   //MIT https://img.shields.io/badge/License-MIT-green 
@@ -38,13 +38,13 @@ function generateMarkdown(data) {
   We built this project ${data.motivation}
   
   ## What problem does it solve 🤷🏼? 
-  * ${checkbox.problem}
+  * //problem part
 
   ## Installation 🛠
   Follow these simple step-by-step instructions for installing the project code. 
   1) Open in Terminal ${data.installT} OR
       Open in VS Code terminal ${data.installVs}
-  2) Type in the installer code: ${data.npminstall.attr('placeholder', 'npm install')}
+  2) Type in the installer code: ${data.npminstall}
 
   ## Usage 🥡🥢
   You can use this repository and code by: 
@@ -52,10 +52,10 @@ function generateMarkdown(data) {
 
   ## Links 💻 
   Insert any links that you have used in this project:
-  * ${data.links.attr('placeholder', 'https://')}
+  * ${data.links}
   
   ## Contributing 💃🏻🕺🏼 
-  You can contribute to this repository by ${checkbox.contribute}
+  You can contribute to this repository by ${data.contribute}
   
   ## Further Issues 🚨
   Any issues with this repository please contact the repository owner via email at ${data.email}.

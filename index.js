@@ -51,7 +51,7 @@ function init() {
             choices: ['to solve a problem' , 'to improve an existing app/ website', 'to create/try something new'],
         },
         {
-            type: 'checkbox',
+            type: 'list',
             name: 'problem',
             message: 'What problem does your project solve?',
             choices: ['a real world problem', 'a User Experience issue', 'a User Interface issue', 'something else'],
@@ -63,7 +63,7 @@ function init() {
             message: 'Installation: open in Terminal? (y/N)',
         },
         {
-            type: 'input',
+            type: 'confirm', //y/N ?
             name: 'installVs',
             message: 'Installation: open in VSCode',
         },
@@ -83,7 +83,7 @@ function init() {
             message: 'Please paste in any links relevat to your project',
         },
         {
-            type: 'checkbox',
+            type: 'list',
             name: 'contribute',
             message: 'Contributing: How can developrs contribute to the repository?',
             choices: ['fork and Git pull request', 'email the repo owner', 'send a pigeon'],
