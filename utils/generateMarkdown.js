@@ -1,6 +1,14 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
+
+const { default: CheckboxPrompt } = require("inquirer/lib/prompts/checkbox");
+
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  //'Apache 2.0', 'Eclipse Public', 'MIT'
+  //Apache: https://img.shields.io/badge/License-Apache%202.0-red 
+  //Eclipse: https://img.shields.io/badge/License-Eclipse%20Public-yellow 
+  //MIT https://img.shields.io/badge/License-MIT-green 
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -16,36 +24,38 @@ function generateMarkdown(data) {
 
   ## Contact information 📮:
   Contact the Developer of this project via
-  GitHub: ${data.github}
-  email: ${data.email}
+  * GitHub: ${data.github}
+  * email: ${data.email}
   
   ## Description 📜 
-  Brief overview: ${data.description}
+  Brief overview: 
+  * ${data.description}
   
   ## License 🪪 and badge 🛡
   The ${data.liscence} liscence has been selected for this project. {badge}
   
   ## Motivation 💪🏻
-  We built this project to ${data.motivation}
+  We built this project ${data.motivation}
   
   ## What problem does it solve 🤷🏼? 
-  ${data.problem}
+  * ${checkbox.problem}
 
   ## Installation 🛠
   Follow these simple step-by-step instructions for installing the project code. 
   1) Open in Terminal ${data.installT} OR
       Open in VS Code terminal ${data.installVs}
-  2) Type in the installer code: npm install ${data.npminstall}
+  2) Type in the installer code: ${data.npminstall.attr('placeholder', 'npm install')}
 
   ## Usage 🥡🥢
   You can use this repository and code by: 
-  ${data.usage}
+  * ${data.usage}
 
   ## Links 💻 
   Insert any links that you have used in this project:
+  * ${data.links.attr('placeholder', 'https://')}
   
   ## Contributing 💃🏻🕺🏼 
-  You can contribute to this repository by ${data.contribute}
+  You can contribute to this repository by ${checkbox.contribute}
   
   ## Further Issues 🚨
   Any issues with this repository please contact the repository owner via email at ${data.email}.

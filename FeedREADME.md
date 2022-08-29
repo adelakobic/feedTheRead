@@ -38,7 +38,8 @@ Actual preview of FeedTheRead.
 ![]()
 
 ## Problems encountered 🤯
-* geting 
+* geting elements which are checkboxes to print to the ReadME, input elements work fine but the checkboxes aren't printing and also the list of licenses is comming up as undefined 28/8/22
+* placeholders added but not working as yet 29/8/22
 
 ## Changes made to the code 𝌡
 * created a ReadMe template into the gernerateMarkdown folder
@@ -52,8 +53,7 @@ Screencastify video via Google Docs:
 
 ## Credits 💃🏻
 * Picture credits as follows: 
-    * Pikisuperstar. (2022, July 6) Freepik.com. <a href="https://www.freepik.com/vectors/abstract-mountain">Abstract mountain vector created by pikisuperstar - www.freepik.com</a>
-    (mountain picture) 
+    * No picture credite for this project. Standard emoji's used. 
 
 ## Licence 🪪
 * No license for this project
