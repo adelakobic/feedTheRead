@@ -1,19 +1,19 @@
-# Project Title 🗂: vddv
+# Project Title 🗂: fddf
 
   ## Contact information 📮:
   Contact the Developer of this project via
-  * GitHub: ddf
+  * GitHub: dfdf
   * email: dfdf
   
   ## Description 📜 
   Brief overview: 
-  * dfdf
+  * dfdfdffdfd
   
   ## License 🪪 and badge 🛡
   The undefined liscence has been selected for this project. {badge}
   
   ## Motivation 💪🏻
-  We built this project to solve a problem
+  We built this project to solve a problem.
   
   ## What problem does it solve 🤷🏼? 
   * //problem part
@@ -21,19 +21,23 @@
   ## Installation 🛠
   Follow these simple step-by-step instructions for installing the project code. 
   1) Open in Terminal true OR
-      Open in VS Code terminal y
-  2) Type in the installer code: gfg
+      Open in VS Code terminal false
+  2) Type in the installer code: npm install gfgfgf
 
   ## Usage 🥡🥢
   You can use this repository and code by: 
-  * gddg
+  * gfgfgfg
 
   ## Links 💻 
   Insert any links that you have used in this project:
-  * ddg
+  * https:// gfgfgf
+
+  ## Tests 🧪⚗️🧑🏾‍🔬
+  Tests that have been carried out on this project are:
+  * efedef
   
   ## Contributing 💃🏻🕺🏼 
-  You can contribute to this repository by 
+  You can contribute to this repository by fork and Git pull request
   
   ## Further Issues 🚨
   Any issues with this repository please contact the repository owner via email at dfdf.

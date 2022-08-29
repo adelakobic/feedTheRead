@@ -24,18 +24,28 @@ function init() {
             type: 'input',
             name: 'github',
             message: 'What is your GitHub Username?',
-            
+            validate: function (answer){
+                if (answer.length < 1) {
+                    return console.log("A valid GitHub Username must be entered.");
+                }
+                return true;
+            }            
         },
         {
             type: 'input',
             name: 'email',
             message: 'What is your email address',
+            validate: function (answer){
+                if (answer.length < 1){
+                    return console.log("A valid email must be entered.");
+                }
+                return true;
+            }
         },
         {
             type: 'input',
             name: 'description',
             message: 'Describe your project in a brief sentance.',
-            
         },
         {
             type: 'list',
@@ -48,19 +58,27 @@ function init() {
             type: 'list',
             name: 'motivation',
             message: 'Motivation: we built this project to: (please choose 1)',
-            choices: ['to solve a problem' , 'to improve an existing app/ website', 'to create/try something new'],
+            choices: ['to solve a problem.' , 'to improve an existing app/ website.', 'to create/try something new.'],
         },
         {
             type: 'list',
             name: 'problem',
             message: 'What problem does your project solve?',
-            choices: ['a real world problem', 'a User Experience issue', 'a User Interface issue', 'something else'],
+            choices: ['a real world problem.', 'a User Experience issue.', 'a User Interface issue.', 'something else.'],
 
         },
         {
-            type: 'confirm', // y/N ?
+            type: 'confirm', // y/N ? - need an if/Or?? as returning True or false in REadME
             name: 'installT',
             message: 'Installation: open in Terminal? (y/N)',
+            validate: async (input) =>{
+                if (input == 'y'){
+                    return('Yes');
+                } else {
+                    return 'No';
+                }
+                return true;
+            }
         },
         {
             type: 'confirm', //y/N ?
@@ -70,7 +88,8 @@ function init() {
         {
             type: 'input',
             name: 'npminstall',
-            message: 'Type in the installer code', //add placeholder for 'npm install'
+            message: 'Type in the installer code: ', //add placeholder for 'npm install'
+
         },
         {
             type: 'input',
@@ -80,7 +99,13 @@ function init() {
         {
             type: 'input',
             name: 'links',
-            message: 'Please paste in any links relevat to your project',
+            message: 'Please paste in any links relevant to your project',
+        },
+        {
+            type: 'input',
+            name: 'tests',
+            message: 'If applicable tell us about any tests that have been run on this project',
+
         },
         {
             type: 'list',
