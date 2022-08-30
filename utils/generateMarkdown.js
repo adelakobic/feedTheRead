@@ -35,6 +35,7 @@ function generateMarkdown(data) {
   let draftToCon = `## Table of Contents`;
 
   if (data.npminstall !== ''){ draftToCon += `
+  * [Contact information 📮:](#contact'};
   * [Installation](#npminstall)`};
 
   return `# Project Title 🗂: ${data.title}
@@ -49,13 +50,13 @@ function generateMarkdown(data) {
   * ${data.description}
   
   ## License 🪪 and badge 🛡
-  The ${data.liscence} liscence has been selected for this project.
+  The ${data.license} license has been selected for this project.
   
   ## Motivation 💪🏻
   We built this project ${data.motivation}
   
   ## What problem does it solve 🤷🏼? 
-  * //problem data.problem
+  * ${data.problem}
 
   ## Installation 🛠
   Follow these simple step-by-step instructions for installing the project code. 

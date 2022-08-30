@@ -51,7 +51,7 @@ function init() {
             type: 'list',
             name: 'license',
             message: 'Please select the license for you project',
-            choices: ['Apache 2.0', 'Eclipse Public', 'MIT']
+            choices: ['Apache', 'Eclipse Public', 'MIT'],
             // add badge to the license 
         },
         {
@@ -83,13 +83,13 @@ function init() {
         {
             type: 'confirm', //y/N ?
             name: 'installVs',
-            message: 'Installation: open in VSCode',
+            message: 'Installation: open in VSCode?',
         },
         {
             type: 'input',
             name: 'npminstall',
             message: 'Type in the installer code: ', //add placeholder for 'npm install'
-            placeholder: 'npm install',
+            default:'npm install',
 
         },
         {
@@ -101,18 +101,19 @@ function init() {
             type: 'input',
             name: 'links',
             message: 'Please paste in any links relevant to your project',
+            default: 'https://',
         },
         {
             type: 'input',
             name: 'tests',
-            message: 'If applicable tell us about any tests that have been run on this project',
+            message: 'If applicable tell us about any tests that have been run on this project.',
 
         },
         {
             type: 'list',
             name: 'contribute',
             message: 'Contributing: How can developrs contribute to the repository?',
-            choices: ['fork and Git pull request', 'email the repo owner', 'send a pigeon'],
+            choices: ['fork and Git pull request', 'email the repo owner', 'sending a pigeon'],
         }
     ])
     .then((response) => {
