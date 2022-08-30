@@ -39,13 +39,13 @@ Actual preview of FeedTheRead.
 
 ## Problems encountered 🤯
 * geting elements which are checkboxes to print to the ReadME, input elements work fine but the checkboxes aren't printing and also the list of licenses is comming up as undefined 28/8/22
-* placeholders added but not working as yet 29/8/22
+* placeholders added but not working as yet 29/8/22 - placeholde
 
 ## Changes made to the code 𝌡
 * created a ReadMe template into the gernerateMarkdown folder
 * created code to go into the JS file asking the questions to generate the ReadMe file
 * created the questions for the prompts 
-* 
+* created the badge code for license - not working yet though
 
 ## Link to the Screencastify video 💻
 Screencastify video via Google Docs: 

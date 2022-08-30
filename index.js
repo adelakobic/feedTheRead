@@ -89,6 +89,7 @@ function init() {
             type: 'input',
             name: 'npminstall',
             message: 'Type in the installer code: ', //add placeholder for 'npm install'
+            placeholder: 'npm install',
 
         },
         {

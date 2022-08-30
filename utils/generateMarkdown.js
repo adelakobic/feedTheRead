@@ -49,13 +49,13 @@ function generateMarkdown(data) {
   * ${data.description}
   
   ## License 🪪 and badge 🛡
-  The ${data.liscence} liscence has been selected for this project. {badge}
+  The ${data.liscence} liscence has been selected for this project.
   
   ## Motivation 💪🏻
   We built this project ${data.motivation}
   
   ## What problem does it solve 🤷🏼? 
-  * //problem part
+  * //problem data.problem
 
   ## Installation 🛠
   Follow these simple step-by-step instructions for installing the project code. 
