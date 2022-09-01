@@ -70,7 +70,7 @@ function init() {
         {
             type: 'confirm', // y/N ? - need an if/Or?? as returning True or false in REadME
             name: 'installT',
-            message: 'Installation: open in Terminal? (y/N)',
+            message: 'Installation: open in Terminal?',
             validate: async (input) =>{
                 if (input == 'y'){
                     return('Yes');
