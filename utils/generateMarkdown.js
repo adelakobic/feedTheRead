@@ -21,10 +21,18 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
- 
-   //Apache: https://img.shields.io/badge/License-Apache%202.0-red 
-  //Eclipse: https://img.shields.io/badge/License-Eclipse%20Public-yellow 
-  //MIT https://img.shields.io/badge/License-MIT-green 
+  let licensePicked = license
+  let licenseLink = '';
+
+  if (licensePicked === 'Apache 2.0'){
+    licenseLink = `![Apache 2.0 License Link](https://opensource.org/licenses/Apache-2.0)`
+  } else if(licensePicked === 'Eclipse'){
+    licenseLink = `[Eclipse 2.0 License Link](https://opensource.org/licenses/EPL-2.0)`
+  } else if(licensePicked === 'MIT'){
+    licenseLink = `[MIT License Link](https://opensource.org/licenses/MIT)`
+  }
+
+  return licenseLink
 };
 
 // TODO: Create a function that returns the license section of README
@@ -78,6 +86,7 @@ Brief overview:
 The ${data.license} license has been selected for this project.
 
 ${renderLicenseBadge(data.license)}
+${renderLicenseLink(data.license)}
 
 ## Motivation 💪🏻
 We built this project ${data.motivation}

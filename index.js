@@ -51,7 +51,7 @@ function init() {
             type: 'list',
             name: 'license',
             message: 'Please select the license for you project',
-            choices: ['Apache', 'Eclipse Public', 'MIT'],
+            choices: ['Apache 2.0', 'Eclipse Public', 'MIT'],
             // add badge to the license 
         },
         {
