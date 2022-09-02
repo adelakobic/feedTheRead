@@ -1,5 +1,5 @@
 # feedTheRead 🥙😋🗒
-Using Node.js to create a README generator. 
+This project is using Node.js to create a README generator. 
 
 ## Description 📜
 When creating an open source project on GitHub, it’s important to include a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;to increase the likelihood that other developers will contribute to the success of the project. 
@@ -10,7 +10,7 @@ This application will  quickly and easily create a README file by using a comman
 This app will help to generate a good quality README document so that developers can quickly create a professional README for a new project. 
 
 ## Build status 🏗
-* The starter code has been built by the University of Birmingham and then additional code created by Adela Kobic
+* The starter code has been built by the University of Birmingham and then additional code created by Adela Kobic.
 
 ## Code style 🔐
 * Standard HTML, CSS and vanilla JavaScript and Node.js has been used for this project. 
@@ -35,17 +35,25 @@ THEN I am taken to the corresponding section of the README
 
 ## Assets 📷
 Actual preview of FeedTheRead. 
-![]()
+![How the command line accepts input in the Terminal.](./assets/Terminal.png)
+
+![How the generated README will look inpreview mode.](./assets/Preview%20image.png)
 
 ## Problems encountered 🤯
 * geting elements which are checkboxes to print to the ReadME, input elements work fine but the checkboxes aren't printing and also the list of licenses is comming up as undefined 28/8/22
-* placeholders added but not working as yet 29/8/22 - placeholde
+* placeholders added but not working as yet 29/8/22 - placeholders added and working - not to self - it's 'default'
+* license not displaying because it needs to have png on end of the link to make it an image - now working 1/9/22
+* license link is deploying in README but no showing up in the Preview version - possible bug? 2/9/22
 
 ## Changes made to the code 𝌡
 * created a ReadMe template into the gernerateMarkdown folder
 * created code to go into the JS file asking the questions to generate the ReadMe file
 * created the questions for the prompts 
 * created the badge code for license - not working yet though
+* badge displaying correctly
+* table of contents created so you can scroll down to relevant section
+* license links created but NOT yest tested 1/9/22
+* new README generated and the license link is shoeing in the README but not in the Preview version 2/9/22
 
 ## Link to the Screencastify video 💻
 Screencastify video via Google Docs: 
@@ -53,7 +61,7 @@ Screencastify video via Google Docs:
 
 ## Credits 💃🏻
 * Picture credits as follows: 
-    * No picture credite for this project. Standard emoji's used. 
+    * No picture credits for this project. Standard emoji's used. 
 
 ## Licence 🪪
 * No license for this project

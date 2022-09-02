@@ -27,9 +27,9 @@ function renderLicenseLink(license) {
   if (licensePicked === 'Apache 2.0'){
     licenseLink = `![Apache 2.0 License Link](https://opensource.org/licenses/Apache-2.0)`
   } else if(licensePicked === 'Eclipse'){
-    licenseLink = `[Eclipse 2.0 License Link](https://opensource.org/licenses/EPL-2.0)`
+    licenseLink = `![Eclipse 2.0 License Link](https://opensource.org/licenses/EPL-2.0)`
   } else if(licensePicked === 'MIT'){
-    licenseLink = `[MIT License Link](https://opensource.org/licenses/MIT)`
+    licenseLink = `![MIT License Link](https://opensource.org/licenses/MIT)`
   }
 
   return licenseLink
