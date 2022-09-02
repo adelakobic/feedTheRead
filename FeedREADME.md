@@ -57,7 +57,7 @@ Actual preview of FeedTheRead.
 
 ## Link to the Screencastify video 💻
 Screencastify video via Google Docs: 
-![](Screencastify Video)
+![Feed the Read Screencastify video link](https://watch.screencastify.com/v/ZgWBdsxNq8SVKw9g786W)
 
 ## Credits 💃🏻
 * Picture credits as follows: 
